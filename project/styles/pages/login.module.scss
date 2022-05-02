@@ -1,0 +1,33 @@
+.main {
+  box-sizing: content-box;
+  text-align: center;
+  max-width: 376px;
+  width: 100%;
+  padding: 21px;
+  margin: 0 0 75px;
+}
+
+.logo {
+  margin-bottom: 50px;
+}
+
+.form {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.link {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+}
+
+.link__forgot-password {
+  color: #6f6f6f;
+  margin-bottom: 40px;
+}
+
+.link__create-account {
+  color: #252525;
+}

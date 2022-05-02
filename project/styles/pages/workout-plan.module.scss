@@ -1,0 +1,82 @@
+.main {
+  margin: 100px 0;
+
+  > div {
+    display: flex;
+    margin-bottom: 150px;
+
+    > * {
+      flex: 1;
+
+      &:first-child {
+        margin-right: 150px;
+      }
+    }
+  }
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: -0.02em;
+  color: #200e32;
+  margin-bottom: 21px;
+}
+
+.list__workouts {
+  margin-bottom: 21px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.list-item__workout {
+  margin-bottom: 21px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.rest {
+  font-weight: 700;
+  font-size: 34px;
+  letter-spacing: -0.02em;
+  color: #200e32;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.awaiting-plan {
+  font-weight: 500;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: -0.05em;
+  color: #200e32;
+}
+
+.form__pay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button__pay {
+  background: none;
+  border: none;
+  font-weight: 600;
+  font-size: 34px;
+  letter-spacing: -0.02em;
+  color: #200e32;
+  text-decoration: underline;
+}
+
+.no-activities {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 41px;
+  letter-spacing: -0.02em;
+  color: #200e32;
+}

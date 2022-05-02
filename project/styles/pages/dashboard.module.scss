@@ -1,0 +1,90 @@
+.main {
+  margin: 50px 0;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.subtitle {
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: -0.02em;
+  color: #200e32;
+  margin-bottom: 32px;
+}
+
+.button__no-clients {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 2px dashed #dadada;
+  border-radius: 15px;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: -0.02em;
+  color: #dadada;
+  height: 50vh;
+  width: 100%;
+  background-color: transparent;
+
+  svg {
+    margin-bottom: 16px;
+  }
+
+  p {
+    max-width: 200px;
+  }
+}
+
+.list__clients {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list-item__client {
+  background: #f7f7f7;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: -0.02em;
+  color: #200e32;
+  margin-right: 26px;
+  border-radius: 20px;
+
+  button {
+    display: block;
+    background: transparent;
+    border: none;
+    padding: 30px;
+    border-radius: 20px;
+  }
+}
+
+.button__add-client {
+  border: 2px dashed #dadada;
+  border-radius: 15px;
+  background: none;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  padding: 30px;
+}
+
+.plans {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.plan {
+  margin-right: 26px;
+}
+
+.link__create-plan {
+  display: block;
+  margin-top: 7px;
+}
